@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 70px;
+    padding: 0 0 0 70px;
+}
+nav > img:nth-child(1){
+    width: 100px;
+}
+
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-items > .nav-item{
+    margin: 25px;
+    font-size: 17px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.nav-items > .active-item{
+    font-size: 20px;
+    font-weight: 700;
+    color: red;
+}
+
+nav >img{
+    cursor: pointer;
+}
+.intro-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.left-section{
+    width: 50%;
+    margin-left: 60px;
+    /* background-color: red; */
+}
+
+.left-section > h3{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+     font-family: 'Poppins';
+}
+
+.left-section > h3 >img{
+    margin-left: 20px;
+    width: 50px;
+}
+
+.left-section > h1{
+    margin-top: 10px;
+    font-size: 50px;
+    letter-spacing: 1px;
+    white-space: 1px;
+     font-family: 'Poppins';
+}
+
+.sub-headlines{
+    margin: 10px 0 0 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.sub-headlines>.sub-headline{
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.sub-headlines > .sub-headline >img{
+    background-color: rgb(244, 66, 66);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    padding: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.text{
+    margin-top: 20px;
+    font-size: 12px;
+    word-spacing: 1px;
+    color: rgb(145, 141, 141);
+}
+
+.action-btns{
+    margin-top: 20px;
+}
+
+.action-btns > .action-btn {
+    padding: 10px 25px;
+    background-color: rgb(244, 66, 66);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+} 
+.right-section{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.headphone-div >.discount{
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    width: 110px;
+}
+.discount-content > h4{
+    font-size: 13px;
+}
+.discount-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 250px;
+    left: 90px;
+    font-size: 13px;
+    color: white;
+}
+
+.headphone-div > img{
+    width: 400px;
+    height: 350px;
+}
+
+.dots{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot{
+    margin-top: 40px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    z-index: 9;
+    margin: 10px;
+}
+
+.yellow-dot{
+    background-color: yellow;
+}
+.tomato-dot{
+    background-color: tomato;
+}
+.black-dot{
+    background-color: black;
+}
+
+.right-section >.action-btn{
+    margin-top: 10px;
+    background-color: rgb(244, 66, 66);
+    padding: 10px 25px;
+    border: none;
+    border-radius: 20px;
+    font-size: 15px;
+    color: white;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:1080px) {
+    .left-section{
+        padding-bottom: 20px;
+    }
+.headphone-div >.discount{
+    position: absolute;
+    top: 100px;
+    left: 0vw;
+    width: 110px;
+
+}
+.discount-content > h4{
+    font-size: 13px;
+}
+.discount-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 250px;
+    left: 2vw;
+    font-size: 12px;
+    color: white;
+}
+
+}
+@media screen and (max-width: 800px) {
+    .intro-section{
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        /* background-color: crimson; */
+    }
+    .left-section{
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+ 
+    .right-section{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .nav-items > .nav-item{
+        font-size: 13px;
+        margin: 20px;
+    }
+    nav img:nth-child(3){
+        display: none;
+        background-color: aqua;
+    }
+    .text{
+        width: 90vw;
+        flex-wrap: wrap;
+    }
+    .right-section{
+        margin-top: 10px;
+        height: 300px;
+    }
+      .headphone-div > img{
+        width: 400px;
+        height: 350px;
+    }
+    .headphone-div >.discount{
+    position: absolute;
+    top: 40px;
+    left: 13vw;
+    width: 15vw;
+
+}
+.discount-content > h4{
+    font-size: 2vw;
+}
+.discount-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 200px;
+    left: 17vw;
+    font-size: 17px;
+    color: white;
+}
+.discount-content >h1{
+    font-size: 3vw;
+}
+}
+
+@media screen and (max-width: 500px) {
+    nav{
+        padding: 20px;
+    }
+      .nav-items{
+        display: none;
+    }
+    .intro-section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }   
+    .left-section >h1{
+        font-size: 20px;
+        font-weight: 800;
+    }
+        .left-section{
+            margin-left: 0;
+            padding: 0;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .sub-headlines > .sub-headline{
+        font-size: 14px;
+    }
+    .text{
+        font-size: 12px;
+    }
+    .action-btns > .action-btn{
+        padding: 8px 20px;
+    }
+    .headphone-div > img{
+        width: 250px;
+        height: 250px;
+    }
+        .headphone-div >.discount{
+    position: absolute;
+    top: 40px;
+    left: 10vw;
+    width: 15vw;
+
+}
+.discount-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    top: 155px;
+    left: 13.5vw;
+    font-size: 17px;
+    color: white;
+}
+.action-btn{
+    margin: 10px;
+}
+}
