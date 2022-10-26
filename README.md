@@ -16,6 +16,6 @@
 ---
 ## 🚀  Project Live Link <br>
 ---
-This project is been hosted on netlify. [Live Project Link]()
+This project is been hosted on netlify. [Live Project Link](https://boisterous-faloodeh-48f1f4.netlify.app/)
 
 ![Wireless Headphone](/Headphone.png)
