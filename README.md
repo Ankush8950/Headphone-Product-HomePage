@@ -12,7 +12,7 @@
 
 ---
 # Time to Complete project
-> around 3 to 4  hours completing project , and this completely responsive webpage.
+> around 4 to 5  hours completing project , and this completely responsive webpage.
 ---
 ## 🚀  Project Live Link <br>
 ---
